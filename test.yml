@@ -1,0 +1,7 @@
+---
+- name: Test playbook
+  hosts: localhost
+  tasks:
+    - name: Run a simple command
+      command: echo "Hello, World!"
+
